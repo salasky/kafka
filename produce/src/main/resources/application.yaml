@@ -1,0 +1,7 @@
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: "127.0.0.1:9092"
+      client-id: "demo-producer"
+      #тестовый топик kafka
+      task-topic-name: "taskTopic"

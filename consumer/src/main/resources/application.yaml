@@ -1,0 +1,12 @@
+spring:
+  servlet:
+    port:
+  kafka:
+    consumer:
+      group-id: "email-notificator"
+      bootstrap-servers: "127.0.0.1:9092"
+      client-id: "demo-producer"
+      task-topic-name: "taskTopic"
+
+server:
+  port: ${SERVER_PORT:8081}
