@@ -14,7 +14,7 @@ import org.springframework.kafka.support.serializer.JsonSerializer
  * Настройки кафки
  */
 @Configuration
-class KafkaConfiguration(
+class KafkaProducerConfiguration(
     val kafkaProperties: KafkaProperties
 ) {
     /**
